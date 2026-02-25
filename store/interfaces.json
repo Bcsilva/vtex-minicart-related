@@ -1,0 +1,6 @@
+{
+    "minicart-related": {
+        "component": "MinicartRelated",
+        "required": ["product-summary"]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "gulp",
+    "version": "0.1.1",
+    "scripts": {
+        "generate-component": "node generateComponent",
+        "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css\" \"sass --watch --no-source-map react/styles:react\" \"sass --watch --no-source-map checkout-ui-custom/scss:checkout-ui-custom\"",
+        "build": "concurrently \"sass styles/scss:styles/css\" \"sass react/styles:react\" \"sass checkout-ui-custom/scss:checkout-ui-custom\" \"vtex release\"",
+        "login": "vtex login vendor",
+        "release": "vtex release patch stable",
+        "prepare": "husky install"
+    },
+    "browserslist": [
+        "last 1 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+    ],
+    "dependencies": {
+        "concurrently": "^7.6.0",
+        "graphql": "^0.13.0",
+        "inquirer": "^7.0.0",
+        "react-intl": "^3.12.0",
+        "sass": "^1.43.4",
+        "slick-carousel": "^1.8.1",
+        "vtex": "^2.67.1",
+        "yargs": "^17.6.2"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^16.2.4",
+        "@commitlint/config-conventional": "^16.2.4",
+        "@typescript-eslint/eslint-plugin": "^5.20.0",
+        "@typescript-eslint/parser": "^5.20.0",
+        "@vtex/prettier-config": "^1.0.0",
+        "@vtex/tsconfig": "^0.6.0",
+        "eslint": "^8.13.0",
+        "eslint-config-vtex": "^15.0.0",
+        "eslint-config-vtex-react": "^9.0.0",
+        "eslint-plugin-jest": "^26.1.4",
+        "eslint-plugin-vtex": "^2.2.0",
+        "husky": "^8.0.1",
+        "prettier": "^2.5.1",
+        "typescript": "^4.5.4"
+    }
+}

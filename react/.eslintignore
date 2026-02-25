@@ -1,0 +1,17 @@
+node_modules
+coverage
+*.snap.ts
+helpers/index.js
+components/TripleBanner/index.js
+components/Slider/index.js
+components/SliderHome/index.js
+components/QuadBanner/index.js
+components/CentroAyuda/index.js
+components/CentroAyuda/index.js
+components/LargeBanner/index.js
+components/FreshDesk/index.js
+components/Feed/index.js
+components/DoubleBanner/index.js
+components/InfoCard/index.js
+components/Locales/index.js
+components/HideComponentsNotify/index.js

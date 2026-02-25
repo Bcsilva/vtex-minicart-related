@@ -1,0 +1,46 @@
+{
+  "name": "vendor.store-theme",
+  "version": "1.0.0",
+  "description": "Store-theme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "google-maps-react": "^2.0.2",
+    "html-react-parser": "^5.1.8",
+    "html-to-react": "^1.5.0",
+    "react-apollo": "^3.0.1",
+    "react-content-loader": "^3.1.2",
+    "react-helmet": "^5.2.1",
+    "react-inner-image-zoom": "^1.0.5",
+    "react-slick": "^0.25.2",
+    "react-slugify": "^2.1.0",
+    "react-use-device": "^1.0.10",
+    "sass": "^1.23.0-module.beta.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^9.3.2",
+    "timers": "^0.1.1",
+    "uuid": "^3.3.2",
+    "classnames": "^2.2.6",
+    "debounce": "^1.2.0",
+    "ramda": "^0.25.0",
+    "react-amphtml": "^4.0.2",
+    "react-intersection-observer": "^8.23.0",
+    "react-intl": "^2.7.2",
+    "react-resize-detector": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.60",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "3.9.7",
+    "@apollo/react-testing": "^3.1.4",
+    "@types/graphql": "^14.5.0",
+    "@vtex/test-tools": "^3.1.0",
+    "@vtex/tsconfig": "^0.3.0",
+    "babel-eslint": "^10.1.0"
+  },
+  "scripts": {
+    "sass": "sass",
+    "test": "vtex-test-tools test"
+  },
+  "author": "",
+  "license": "ISC"
+}

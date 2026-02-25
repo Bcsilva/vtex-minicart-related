@@ -1,0 +1,29 @@
+{
+    "minicart-related":{
+      "blocks": ["product-summary.shelf#minicart-related"],
+      "props": {
+        "blockClass": ["related-slider", "product"],
+        "isEnabled": true,
+        "recommendation": "editor.relatedProducts.view",
+        "productList": {
+          "maxItems": 5,
+          "showTitle": true,
+          "titleText": "Related products",
+          "summary": {
+            "showBadge": true,
+            "badgeText": "OFF",
+            "showCollections": false,
+            "showListPrice": true,
+            "showLabels": true,
+            "showInstallments": false,
+            "showSavings": false,
+            "name": {
+              "showBrandName": false,
+              "showSku": false,
+              "showProductReference": false
+            }
+          }
+        }
+      }
+    }
+}
